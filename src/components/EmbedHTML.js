@@ -6,7 +6,6 @@ const customHtml = `
 
 
 <style>
-<style>
   	@media (min-width: 992px) {
 .ul-scroll-animate[data-animation-type=fade][data-was-animated=true] {
     -webkit-animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
