@@ -6,14 +6,14 @@ const customHtml = `
 
 
 <style>
-  	@media (min-width: 992px) {
-.ul-scroll-animate[data-animation-type=fade][data-was-animated=true] {
+
+.scroll-animate {
     -webkit-animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
     animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-.ul-scroll-animate[data-animation-type="fade"][data-was-animated="true"] {
+.scroll-animate {
     opacity: 1 !important;
     -webkit-transition-duration: 0.1s!important;
     transition-duration: 0.1s!important;
