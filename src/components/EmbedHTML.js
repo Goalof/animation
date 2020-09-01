@@ -7,18 +7,17 @@ const customHtml = `
 
 <style>
 
-.scroll-animate {
-    -webkit-animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
-    animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-.scroll-animate {
+
+#scroll-animate {
     opacity: 1 !important;
     -webkit-transition-duration: 0.1s!important;
     transition-duration: 0.1s!important;
+     -webkit-animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
+    animation: fade-in-top .4s cubic-bezier(.39,.575,.565,1) both;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
   }
-  }
+
 
 
 @-webkit-keyframes fade-in-top {

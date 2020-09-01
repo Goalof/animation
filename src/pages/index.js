@@ -7,6 +7,7 @@ import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
+		<Components.EmbedHTML />
 		<Section id="scroll-animate">
 			<Text margin="0px 0 24px 0" text-align="center" font="--headline2" md-font="--headline3">
 				Awesome Company
@@ -208,7 +209,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.EmbedHTML />
 		<Components.Anim />
 		<Section id="scroll-animate" background-color="--dark" text-align="center" padding="32px 0">
 			<Menu
